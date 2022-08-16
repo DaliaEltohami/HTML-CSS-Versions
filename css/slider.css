@@ -1,0 +1,35 @@
+/* Slider Section */
+
+.slider-img {
+    position: relative;
+  }
+  
+  .slider-img img {
+    width: 100%;
+  }
+  
+  .slider-img .section-bullets {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 25px;
+    left: 0;
+    bottom: 1%;
+  }
+  
+  .slider-img .section-bullets .section-bullet {
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  
+  .slider-img .section-bullets .section-bullet-active {
+    background-color: #fff;
+  }
+  
+  .slider-img:hover {
+    cursor: pointer;
+  }
+  
+  .slider-img:hover .section-bullet {
+    opacity: 1;
+  }

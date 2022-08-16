@@ -1,0 +1,83 @@
+/* Sprites Section */
+
+.sprites{
+    margin: 80px 0;
+  }
+  
+  .sprites-items{
+    display: flex;
+    padding-bottom: 65px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  .sprite-item{
+    flex: 1;
+    border-right: 1px solid #eeeeee;
+    text-align: center;
+  }
+  
+  .sprite-item:last-child{
+    border: none;
+  }
+  
+  .sprite-icon{
+    background-image: url(../images/service-icon.png);
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    transition: all 0.5s;
+  }
+  
+  .sprite-icon-1{
+    background-position: 50% 4px;
+  }
+  
+  .sprite-item:hover .sprite-icon-1{
+    background-position: 50% -89px;
+  }
+  
+  .sprite-icon-2{
+    background-position: 50% -183px;
+  }
+  
+  .sprite-item:hover .sprite-icon-2{
+    background-position: 50% -273px;
+  }
+  
+  .sprite-icon-3{
+    background-position: 50% -367px;
+  }
+  
+  .sprite-item:hover .sprite-icon-3{
+    background-position: 50% -457px;
+  }
+  
+  .sprite-icon-4{
+    background-position: 50% -552px;
+  }
+  
+  .sprite-item:hover .sprite-icon-4{
+    background-position: 50% -642px;
+  }
+  
+  .sprite-icon-5{
+    background-position: 50% -737px;
+  }
+  
+  .sprite-item:hover .sprite-icon-5{
+    background-position: 50% -829px;
+  }
+  
+  .sprite-item-title{
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+  }
+  
+  .sprite-item-desc {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: #888888;
+  }

@@ -1,0 +1,164 @@
+/* Footer Section */
+
+.footer {
+    background-color: black;
+    color: #888888;
+    padding: 90px 0 20px;
+    border-bottom: 1px solid #888888;
+  }
+  
+  .footer-menus {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.7px;
+  }
+  
+  .site-brief {
+    flex: 2;
+    padding-right: 25px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 40px;
+  }
+  
+  p.brief-content {
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .footer-images {
+    display: flex;
+  }
+  
+  .footer-image1 {
+    margin-right: 20px;
+  }
+  
+  .footer-info-menu {
+    flex: 1;
+  }
+  
+  .footer-info-item {
+    padding-bottom: 20px;
+  }
+  
+  .footer-info-items .footer-info-item:first-child {
+    color: #fff;
+    padding-bottom: 25px;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .footer-account-menu {
+    flex: 1;
+  }
+  
+  .footer-account-item {
+    padding-bottom: 20px;
+  }
+  
+  .footer-account-items .footer-account-item:first-child {
+    color: #fff;
+    padding-bottom: 25px;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .footer-supscribe-menu {
+    flex: 1.5;
+  }
+  
+  .footer-supscribe-item {
+    padding-bottom: 20px;
+  }
+  
+  .footer-supscribe-items .footer-supscribe-item:first-child {
+    color: #fff;
+    padding-bottom: 50px;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  
+  .footer-supscribe-item input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #888888;
+    color: #f6f6f6;
+    box-shadow: none;
+    padding: 30px 45px 10px 10px;
+    width: 100%;
+  }
+  
+  .footer-supscribe-items .footer-supscribe-item:nth-child(2) {
+    position: relative;
+  }
+  
+  .send-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 73%;
+    width: 20%;
+    background-image: url(../images/newsletter.png);
+    background-repeat: no-repeat;
+    background-position: 94% 25px;
+    background-color: transparent;
+  }
+  
+  .send-icon:hover {
+    cursor: pointer;
+    background-position: 94% -36px;
+  }
+  
+  .footer-social-items {
+    font-size: large;
+  }
+  
+  li.footer-social-item {
+    display: inline-block;
+    margin: 30px 20px 10px 10px;
+  }
+  
+  .footer-copyright {
+    padding: 20px 0;
+    background-color: black;
+    color: #888888;
+  }
+  
+  .footer-copyright-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .copyright-text{
+    color: #888888;
+  }
+  
+  .copyright-text a{
+    color: #888888;
+  }
+  
+  .copyright-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #888888;
+  }
+  
+  .copyright-menu-item img {
+    filter: grayscale(100);
+    -webkit-filter: grayscale(100);
+  }
+  
+  .copyright-menu-item:hover img{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+  }
+  

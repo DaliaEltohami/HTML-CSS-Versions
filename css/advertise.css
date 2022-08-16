@@ -1,0 +1,39 @@
+/* Advertise Section */
+
+
+.advertise-content{
+    display: flex;
+  }
+  
+  .video{
+    flex: 1.5;
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .video > img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .blog-desc{
+    flex: 3;
+    background-color: #f7f3ef;
+    padding: 45px;
+  }
+  
+  .desc-icon-title{
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .blog-desc-top{
+    padding-left: 95px;
+  }

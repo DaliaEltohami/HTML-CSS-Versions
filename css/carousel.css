@@ -1,0 +1,25 @@
+/* Carousel Banner Section */
+
+.carousel{
+    margin-bottom: 40px;
+  }
+  
+  .carousel-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+  }
+  
+  .carousel-image{
+    margin: 0 20px;
+  }
+  
+  .carousel-image img{
+    opacity: 0.7;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carousel-image:hover img{
+    opacity: 1;
+    cursor: pointer;
+  }

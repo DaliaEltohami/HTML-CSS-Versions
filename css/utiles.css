@@ -1,0 +1,23 @@
+.capitalized {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.unstyled-list {
+  list-style: none;
+}
+
+.unstyled-link{
+    text-decoration: none;
+}
+
+.pd-y-80{
+  padding: 80px 0;
+}
+
+.pd-r-25{
+  margin-right: 25px;
+}

@@ -1,0 +1,60 @@
+/* Discount Section */
+
+.discount {
+
+}
+
+.discount-columns {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 20px;
+}
+
+.desc-top.discount-desc-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.discount-item{
+  position: relative;
+}
+
+.discount-item:nth-child(2) {
+  /* margin-right: 20px; */
+}
+
+.discount-item .discount-item-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.discount-item .discount-item-image img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  transition: transform 0.5s;
+}
+
+.discount-item-image:hover img {
+  transform: scale(1.03);
+}
+
+.discount-item-content{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.discount-item-subtitle{
+  color: var(--mainColor);
+  margin-bottom: 5px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+}
+
+.discount-item-title{
+  font-size: 22px;
+}
